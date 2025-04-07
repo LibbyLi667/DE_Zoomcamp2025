@@ -38,4 +38,10 @@ terraform.rc
 
 *.json
 .gitignore
-.log
+.gitattributes
+**logs/
+**/ny_taxi_postgres_data/*
+**/data_pgadmin/*
+.ipynb_checkpoints/
+.history
+**.env
